@@ -37,6 +37,8 @@ print(f"Tunggu sebentar ya, Pak {popped_guest}")
 print(f"\nMonggo, Pak {guests[0]} makan duluan.")
 print(f"Monggo, Pak {guests[1]} makan duluan.")
 
+print(f"Number of guest: {len(guests)}")
+
 del guests[0]
 del guests[0]
 
